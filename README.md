@@ -29,7 +29,6 @@ python main.py --dataset_path ./mvtec/    \
 Download pretrained weights from [[Google Drive]](https://drive.google.com/drive/folders/1fvF1RFeOCWIraWhTUu71ZX1TX5Za8_kb?usp=drive_link)
 
 ## Citation
-Please cite our paper if you find it's helpful in your work.
 
 ``` bibtex
 @inproceedings{Anomaly-Detection-using-Score-based-Perturbation-Resilience,
@@ -40,4 +39,7 @@ Please cite our paper if you find it's helpful in your work.
   year={2023}
 }
 ```
+## Acknowledgement
+Our repository is inspired by the following repositories. Thank you for their contribution.
+- 
 
