@@ -31,7 +31,6 @@ def parse_args():
     parser.add_argument('--lr', type=float, default=1e-4)
     parser.add_argument('--batch_size', type=int, default=16)
     parser.add_argument('--num_workers', type=int, default=4)
-    parser.add_argument('--sigma', type=int, default=25)
     parser.add_argument('--class_name', type=str, default='all')
     return parser.parse_args()
 
@@ -109,8 +108,8 @@ def run():
                                     drop_last       =   False,
                                     num_workers     =   args.num_workers)
         
-        marginal_prob_std_fn = functools.partial(marginal_prob_std, sigma=args.sigma, device = device)
-        diffusion_coeff_fn = functools.partial(diffusion_coeff, sigma=args.sigma, device = device)
+        marginal_prob_std_fn = functools.partial(marginal_prob_std, sigma = 25, device = device)
+        diffusion_coeff_fn = functools.partial(diffusion_coeff, sigma = 25, device = device)
         
         score_model = UNet(marginal_prob_std = marginal_prob_std_fn,
                            n_channels        = 3,
