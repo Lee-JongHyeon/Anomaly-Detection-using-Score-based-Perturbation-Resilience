@@ -5,8 +5,11 @@ This repository contains the implementation for Anomaly Detection using Score-ba
 
 ## Environments 
 Python 3.8
+
 CUDA 11.3
+
 Packages:
+
 ```bash
 Pillow==8.4.0
 numpy==1.19.5
