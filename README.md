@@ -42,6 +42,6 @@ Download pretrained weights from [[Google Drive]](https://drive.google.com/drive
 ## Acknowledgement
 Our repository is inspired by the following repositories. Thank you for their contribution.
 - [Score SDE](https://github.com/yang-song/score_sde)
-- [[MahalanobisAD]](https://github.com/byungjae89/MahalanobisAD-pytorch)
-- [[Pytorch-UNet]](https://github.com/milesial/Pytorch-UNet)
+- [MahalanobisAD](https://github.com/byungjae89/MahalanobisAD-pytorch)
+- [Pytorch-UNet](https://github.com/milesial/Pytorch-UNet)
 
