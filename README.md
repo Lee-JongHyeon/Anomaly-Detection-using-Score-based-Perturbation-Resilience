@@ -3,9 +3,17 @@
 This repository contains the implementation for Anomaly Detection using Score-based Perturbation Resilience
 [[ICCV 2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Shin_Anomaly_Detection_using_Score-based_Perturbation_Resilience_ICCV_2023_paper.pdf)
 
-## Libraries 
+## Environments 
+Python 3.8
+CUDA 11.3
+Packages:
 ```bash
-pip install -r requirements.txt
+Pillow==8.4.0
+numpy==1.19.5
+scikit-learn==0.24.2
+torch-ema==0.3
+pytorch==1.12.0
+torchvision==0.13.0
 ```
 ## Data Preparations
 Download MVTEC dataset from [[Link]](https://www.mvtec.com/company/research/datasets/mvtec-ad)
