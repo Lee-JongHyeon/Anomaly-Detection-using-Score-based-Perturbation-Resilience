@@ -12,7 +12,7 @@ Pillow==8.4.0
 numpy==1.19.5
 scikit-learn==0.24.2
 torch-ema==0.3
-pytorch==1.12.0
+torch==1.12.0
 torchvision==0.13.0
 ```
 ## Data Preparations
