@@ -1,4 +1,5 @@
-## Anomaly-Detection-using-Score-based-Perturbation-Resilience (ICCV 2023)
+## Anomaly-Detection-using-Score-based-Perturbation-Resilience
+## (ICCV 2023)
 
 This repository contains the implementation for Anomaly Detection using Score-based Perturbation Resilience
 [[ICCV 2023]](https://openaccess.thecvf.com/content/ICCV2023/papers/Shin_Anomaly_Detection_using_Score-based_Perturbation_Resilience_ICCV_2023_paper.pdf)
