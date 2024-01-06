@@ -13,7 +13,7 @@ Download pretrained weights from [[Google Drive]](https://drive.google.com/drive
 Please cite our paper if you find it's helpful in your work.
 
 ``` bibtex
-@inproceedings{shin2023anomaly,
+@inproceedings{Anomaly-Detection-using-Score-based-Perturbation-Resilience,
   title={Anomaly Detection using Score-based Perturbation Resilience},
   author={Shin, Woosang and Lee, Jonghyeon and Lee, Taehan and Lee, Sangmoon and Yun, Jong Pil},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
