@@ -99,6 +99,7 @@ def run():
         ckpt = torch.load(load_pth, map_location=device)
         score_model = score_model.to(device)
         score_model.load_state_dict(ckpt)
+        score_model.eval()
         
         all_scores = None
         all_mask = None
