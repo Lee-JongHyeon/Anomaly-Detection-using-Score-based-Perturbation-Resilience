@@ -9,3 +9,16 @@ Download MVTEC dataset from [[Link]](https://www.mvtec.com/company/research/data
 ## Pretrained weights Preparations
 Download pretrained weights from [[Google Drive]](https://drive.google.com/drive/folders/1fvF1RFeOCWIraWhTUu71ZX1TX5Za8_kb?usp=drive_link)
 
+## Citation
+Please cite our paper if you find it's helpful in your work.
+
+```
+@inproceedings{shin2023anomaly,
+  title={Anomaly Detection using Score-based Perturbation Resilience},
+  author={Shin, Woosang and Lee, Jonghyeon and Lee, Taehan and Lee, Sangmoon and Yun, Jong Pil},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={23372--23382},
+  year={2023}
+}
+```
+
