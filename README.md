@@ -10,7 +10,14 @@ pip install -r requirements.txt
 ## Data Preparations
 Download MVTEC dataset from [[Link]](https://www.mvtec.com/company/research/datasets/mvtec-ad)
 
-## Pretrained weights Preparations
+## Train
+```bash
+python main.py --dataset_path ./mvtec/    \
+               --save_path ./save/        \
+               --class_name all
+
+```
+## Pretrained weights
 Download pretrained weights from [[Google Drive]](https://drive.google.com/drive/folders/1fvF1RFeOCWIraWhTUu71ZX1TX5Za8_kb?usp=drive_link)
 
 ## Citation
