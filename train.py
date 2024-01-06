@@ -141,7 +141,7 @@ def run():
                 
             print('Class : {} [{}/{}] -> Average Loss: {:.2f}'.format(class_name, epoch, args.n_epochs, avg_loss))
             
-            
+            score_model.eval()
             if (epoch) % args.n_epochs == 0:
                 with ema.average_parameters():
                     all_scores = None
