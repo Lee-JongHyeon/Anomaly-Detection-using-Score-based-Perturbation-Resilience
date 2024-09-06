@@ -26,7 +26,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 def parse_args():
     parser = argparse.ArgumentParser('configuration')
     parser.add_argument('--num_iter', type=int, default=3)
-    parser.add_argument('--perturbed_t', type=int, default=1e-3)
+    parser.add_argument('--perturbed_t', type=float, default=1e-3)
     parser.add_argument('--dataset_path', type=str, default='./mvtec/')
     parser.add_argument('--pretrained_weights_path', type=str, default='./save/models/')
     parser.add_argument('--batch_size', type=int, default=16)
